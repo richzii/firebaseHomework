@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		703BB578246B40E800C8029F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703BB577246B40E800C8029F /* SecondViewController.swift */; };
 		7097B5A7245DA0FA0058635B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7097B5A6245DA0FA0058635B /* AppDelegate.swift */; };
 		7097B5A9245DA0FA0058635B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7097B5A8245DA0FA0058635B /* SceneDelegate.swift */; };
 		7097B5AB245DA0FA0058635B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7097B5AA245DA0FA0058635B /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		0B80905F94DB2942B7A2B664 /* Pods_FirebaseHomework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseHomework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C3C4CBC46FA062980A75ED /* Pods-FirebaseHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseHomework.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseHomework/Pods-FirebaseHomework.debug.xcconfig"; sourceTree = "<group>"; };
+		703BB577246B40E800C8029F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7097B5A3245DA0FA0058635B /* FirebaseHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7097B5A6245DA0FA0058635B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7097B5A8245DA0FA0058635B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				7097B5A8245DA0FA0058635B /* SceneDelegate.swift */,
 				7097B5AA245DA0FA0058635B /* ViewController.swift */,
 				7097B5AC245DA0FA0058635B /* Main.storyboard */,
+				703BB577246B40E800C8029F /* SecondViewController.swift */,
 				7097B5AF245DA0FC0058635B /* Assets.xcassets */,
 				7097B5B1245DA0FC0058635B /* LaunchScreen.storyboard */,
 				7097B5B4245DA0FC0058635B /* Info.plist */,
@@ -83,7 +86,6 @@
 				33C3C4CBC46FA062980A75ED /* Pods-FirebaseHomework.debug.xcconfig */,
 				F8DA39DCDBC8E1BA44B80648 /* Pods-FirebaseHomework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703BB578246B40E800C8029F /* SecondViewController.swift in Sources */,
 				7097B5AB245DA0FA0058635B /* ViewController.swift in Sources */,
 				7097B5A7245DA0FA0058635B /* AppDelegate.swift in Sources */,
 				7097B5A9245DA0FA0058635B /* SceneDelegate.swift in Sources */,
